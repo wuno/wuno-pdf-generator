@@ -1,0 +1,47 @@
+{
+  "name": "wuno-pdf-generator",
+  "version": "0.0.1",
+  "description": "A API for rendering PDF documents using Puppeteer",
+  "author": "wunO - Nicholas J. Diaz",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "node server/index.js ",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "engines": {
+    "node": "10.10.0",
+    "npm": "6.4.1",
+    "yarn": "1.6.0"
+  },
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0-beta.2",
+    "bootstrap-vue": "^1.0.2",
+    "c3": "^0.5.4",
+    "d3": "^5.3.0",
+    "express": "^4.15.3",
+    "jquery": "^3.3.1",
+    "nuxt": "^1.0.0",
+    "popper.js": "^1.14.3",
+    "puppeteer": "^1.7.0",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "chart.js": "^2.7.2",
+    "chartjs-plugin-annotation": "^0.5.7",
+    "cross-env": "^5.1.6",
+    "jest": "^23.6.0",
+    "jest-puppeteer": "^3.3.1",
+    "nodemon": "^1.11.0"
+  }
+}

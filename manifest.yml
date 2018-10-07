@@ -1,0 +1,7 @@
+---
+applications:
+- name: wuno-pdf-generator
+  memory: 512M
+  instances: 2
+  disk_quota: 1G
+  instances: 2
